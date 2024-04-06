@@ -1,0 +1,158 @@
+status,proportion,new_status
+for sale,0.4652786681,Sale
+Active,0.3136741612,Sale
+For sale,0.1295889374,Sale
+foreclosure,0.0169261089,Auction
+New construction,0.01627315526,New
+Pending,0.01400421587,Sale
+Pre-foreclosure,0.005963046998,Auction
+P,0.004436506966,Other
+Pre-foreclosure / auction,0.003819331602,Auction
+Under Contract Show,0.003527142299,Sale
+/ auction,0.002382237276,Auction
+Under Contract   Showing,0.002364348135,Sale
+Active Under Contract,0.002140733872,Sale
+New,0.002057251214,New
+Under Contract,0.002057251214,Sale
+Contingent,0.001732265153,Other
+Price Change,0.00167859773,Sale
+Auction,0.001469891085,Auction
+A Active,0.00132081491,Sale
+for rent,0.001186646353,Rent
+Foreclosure,0.00102266256,Auction
+Foreclosed,0.0008765679087,Auction
+Under Contract Backups,0.0007513439217,Sale
+Contingent Finance And Inspection,0.0007155656397,Sale
+Pending Continue To Show,0.0005784155588,Sale
+Option Pending,0.0003279675849,Sale
+Back on Market,0.0003160414909,Sale
+pending,0.0003130599674,Sale
+Contingent Show,0.0003011338734,Sale
+Pending Taking Backups,0.0001878359804,Sale
+Option Contract,0.0001610022689,Sale
+Active With Offer,0.0001460946514,Sale
+Pending With Contingencies,0.000131187034,Sale
+Active Backup,0.0001162794165,Sale
+C,0.0001162794165,Other
+Pi,0.000107334846,Other
+Contract P,0.000107334846,Sale
+P Pending Sale,0.0001043533225,Sale
+Auction - Active,8.35E-05,Auction
+Listing Extended,8.35E-05,Sale
+Due Diligence Period,8.05E-05,Sale
+Contract Contingent On Buyer Sale,7.45E-05,Sale
+C Continue Show,5.37E-05,Sale
+Pending - Taking Backups,5.07E-05,Sale
+Active/Contingent,4.47E-05,Sale
+Offer Pending Signature,4.47E-05,Sale
+Contingent Take Backup,4.17E-05,Sale
+Pending Inspection,4.17E-05,Sale
+Active With Contingencies,3.88E-05,Sale
+Contingent   Show,3.88E-05,Sale
+Pending In,3.88E-05,Sale
+Pending W/Insp Finance,2.98E-05,Sale
+Active - Auction,2.98E-05,Auction
+CT Insp - Inspection Contingency,2.98E-05,Sale
+Coming soon: Nov 29.,2.98E-05,New
+U Under Contract,2.98E-05,Sale
+Contingent Escape,2.98E-05,Sale
+Contingency Contract,2.68E-05,Sale
+Under Contract - Show,2.68E-05,Sale
+Active Contingency,2.39E-05,Sale
+Coming soon: Dec 6.,2.39E-05,New
+Coming soon: Dec 5.,2.09E-05,New
+Apartment for rent,2.09E-05,Rent
+Pending Ab,2.09E-05,Sale
+Active Option Contract,2.09E-05,Sale
+Active Option,2.09E-05,Sale
+Condo for rent,2.09E-05,Rent
+Active Contingent,1.79E-05,Sale
+Back On Market,1.79E-05,Sale
+Backup Contract,1.79E-05,Sale
+Coming soon: Dec 4.,1.79E-05,New
+Ct,1.49E-05,Other
+Pending   Continue To Show   Financing,1.49E-05,Sale
+Contingent Finance and Inspection,1.49E-05,Sale
+Contingent Lien Holder Release,1.49E-05,Rent
+Contingency 48 Hr (+/ ),1.49E-05,Sale
+Coming soon: Dec 13.,1.49E-05,New
+Closed,1.49E-05,Sale
+Coming soon: Nov 27.,1.49E-05,New
+Coming soon: Dec 7.,1.19E-05,New
+Coming soon: Nov 19.,1.19E-05,New
+Pf,1.19E-05,Other
+Coming soon: Dec 10.,1.19E-05,New
+Coming soon: Dec 3.,1.19E-05,New
+Coming soon: Nov 30.,1.19E-05,New
+Accepted Offer,1.19E-05,Sale
+Pending Offer Approval,1.19E-05,Sale
+Coming soon: Nov 28.,1.19E-05,New
+Coming soon: Dec 2.,8.94E-06,New
+Contingent   Release,8.94E-06,Sale
+Pending Fe,8.94E-06,Other
+Lease/Purchase Pending,8.94E-06,Rent
+Coming soon: Dec 9.,8.94E-06,New
+Coming soon: Dec 14.,8.94E-06,New
+Pending   Continue To Show,8.94E-06,Sale
+Coming soon: Nov 13.,5.96E-06,New
+Pending Sale,5.96E-06,Sale
+Active - Contingent,5.96E-06,Sale
+Coming soon: Dec 11.,5.96E-06,New
+Re Activated,5.96E-06,Sale
+Active with Contract,5.96E-06,Sale
+Contingent   Foreclosure,5.96E-06,Auction
+Ps,5.96E-06,Other
+Accepting backups,5.96E-06,Rent
+Coming soon: Oct 30.,5.96E-06,New
+Pending - Backup Offer Requested,5.96E-06,Sale
+Under Contract - No Show,5.96E-06,Sale
+Coming soon: Dec 16.,5.96E-06,New
+Pending - Continue to Show,5.96E-06,Sale
+Coming soon: Dec 18.,5.96E-06,New
+Coming soon: Nov 21.,5.96E-06,New
+For Sale,5.96E-06,Sale
+Coming soon: Dec 24.,5.96E-06,New
+Under contract,5.96E-06,Sale
+Coming soon: Nov 22.,5.96E-06,New
+Pending (Do Not Show),5.96E-06,Sale
+Uc Continue To Show,5.96E-06,Sale
+Pending W/ Cont.,5.96E-06,Sale
+Coming soon: Dec 20.,5.96E-06,New
+Contingent - Financing,5.96E-06,Sale
+Coming soon: Dec 1.,2.98E-06,New
+Under Contract W/ Bckp,2.98E-06,Sale
+Coming soon: Dec 12.,2.98E-06,New
+Pending Sh,2.98E-06,Sale
+Contingent - Sale of Home,2.98E-06,Sale
+Coming soon: Nov 12.,2.98E-06,New
+Lease/Purchase,2.98E-06,Rent
+Conting Accpt Backups,2.98E-06,Other
+Coming soon: Nov 25.,2.98E-06,New
+Pending Take Backups,2.98E-06,Sale
+Reactivated,2.98E-06,Sale
+Under Contract Taking Back Up Offers,2.98E-06,Sale
+Backup,2.98E-06,Sale
+Coming soon: Nov 5.,2.98E-06,New
+Coming soon: Oct 21.,2.98E-06,New
+Contingent   No Show,2.98E-06,Sale
+Coming soon: Nov 17.,2.98E-06,New
+Coming soon: Nov 23.,2.98E-06,New
+Pending Bring Backup,2.98E-06,Sale
+"Pending, Continue to Show",2.98E-06,Sale
+Coming soon: Nov 14.,2.98E-06,New
+Coming soon: Oct 24.,2.98E-06,New
+Coming soon: Dec 25.,2.98E-06,New
+Coming soon: Nov 11.,2.98E-06,New
+Temporary Active,2.98E-06,Sale
+Pending W/Escape Clause,2.98E-06,Sale
+Pending Backups Wanted,2.98E-06,Sale
+Coming soon: Nov 26.,2.98E-06,New
+Contract,2.98E-06,Sale
+Coming soon: Dec 27.,2.98E-06,New
+Conditional Contract,2.98E-06,Sale
+Coming soon: Nov 8.,2.98E-06,New
+Coming soon: Oct 29.,2.98E-06,New
+Coming soon: Dec 15.,2.98E-06,New
+Pending W/Backup Wanted,2.98E-06,Sale
+Coming soon: Dec 23.,2.98E-06,New
+Other,,Other
