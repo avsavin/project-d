@@ -1,0 +1,23 @@
+<form method = 'post', action="/">
+    <p>
+        Actual Price: {{actual_target}} 
+        <Br>
+        Estimated Price: {{estimated_target}}
+    </p>
+    <table>
+        <tr>
+            <th>Feature Name</th>
+            <th>Value</th>
+        </tr>
+        {% for row in rows %}
+        <tr>
+            <td>{{row.f_name}}</td>
+            <td><input id='{{row.f_name}}' name='{{row.f_name}}' value='{{ row.f_value }}'></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <p>
+        <input type="submit" name="action" value="Estimate">
+        <input type="submit" name="action" value="Restart">
+    </p>
+</form>
