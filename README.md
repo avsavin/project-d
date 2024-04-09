@@ -51,13 +51,15 @@
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-Для запуска веб-сервиса необходимо загрузить контейнер из docker hub <br>
+Для запуска веб-сервиса необходимо загрузить контейнер из docker hub
+```
 docker pull anatolysavin/project-d <br>
-и запустить его на локальной машине при помощи команды<br>
-
+```
+и запустить его на локальной машине при помощи команды
+```
 docker run -p 127.0.0.1:8000:8000 project-d<br>
-
-Веб сервис должен быть доступен по адресу http://localhost:8000<br>
+```
+Веб сервис должен быть доступен по адресу http://localhost:8000
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
