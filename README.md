@@ -53,13 +53,27 @@
 
 Для запуска веб-сервиса необходимо загрузить контейнер из docker hub
 ```
-docker pull anatolysavin/project-d <br>
+docker pull anatolysavin/project-d
 ```
 и запустить его на локальной машине при помощи команды
 ```
-docker run -p 127.0.0.1:8000:8000 project-d<br>
+docker run -p 127.0.0.1:8000:8000 project-d
 ```
 Веб сервис должен быть доступен по адресу http://localhost:8000
+
+Подготовка данных и обучение модели выполненые в двух jupyter notebook:
+real_estate_price_part1.ipynb
+real_estate_price_part2.ipynb
+
+Для воспроизведения кода вам понадобится развернуть на локальном компьютере структуру каталогов из следующих архивных файлов и загрузить вспомогательные данные:
+почтовые индексам - simplemaps_uszips_basicv1.84.zip, 
+координаты столиц штатов - states.csv, 
+файл управления статистики США c данными о плотности домохозяйств и среднем доходе - income-2022.zip. 
+
+Также вам понадобиться доступ к интерфейсу google maps. Временный ключ для доступа к интерфейсу включен в ноутбук (это плохая практика, так как открывает доступ в том числе к платным сервисам). Если ключ не работает, пожалуйста, обратитесь ко мне напрямую или получите ключ самостоятельно.
+
+Файл requirements.txt для ноутбуков находится в корневой директории проекта.
+Файл requirements.txt для веб-сервиса надохится в директории web.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
