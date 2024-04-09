@@ -34,7 +34,7 @@
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
+## 🧐 Введение <a name = "about"></a>
 В проекте решались следующие бизнес задачи:
 
 - разработать модель, которая позволила бы агентству получить конкуретное преимущество: скорость и точность прогноза цены объекта позволяет быстрее закрыть сделку по продаже объекта;
@@ -49,7 +49,7 @@
 - вывезти модель в эксплуатацию в качестве веб-сервиса, выдающего прогноз цены при поступлении данных о новом объекте в качестве параметров
 
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Начало работы и запуск сервисов <a name = "getting_started"></a>
 
 Для запуска веб-сервиса необходимо загрузить контейнер из docker hub
 ```
@@ -65,6 +65,8 @@ docker run -p 127.0.0.1:8000:8000 project-d
 real_estate_price_part1.ipynb
 real_estate_price_part2.ipynb
 
+### Необходимая подготовка
+
 Для воспроизведения кода вам понадобится развернуть на локальном компьютере структуру каталогов из следующих архивных файлов и загрузить вспомогательные данные:
 почтовые индексам - simplemaps_uszips_basicv1.84.zip, 
 координаты столиц штатов - states.csv, 
@@ -75,33 +77,7 @@ real_estate_price_part2.ipynb
 Файл requirements.txt для ноутбуков находится в корневой директории проекта.
 Файл requirements.txt для веб-сервиса надохится в директории web.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
