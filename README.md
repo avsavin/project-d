@@ -24,8 +24,8 @@
 
 ## 📝 Содержание
 
-- [About](#about)
-- [Getting Started](#getting_started)
+- [Введение](#about)
+- [Начало работы](#getting_started)
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
