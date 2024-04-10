@@ -57,7 +57,7 @@ docker pull anatolysavin/project-d
 ```
 и запустить его на локальной машине при помощи команды
 ```
-docker run -p 127.0.0.1:8000:8000 project-d
+docker run -p 127.0.0.1:8000:8000 anatolysavin/project-d
 ```
 Веб сервис должен быть доступен по адресу http://localhost:8000
 
