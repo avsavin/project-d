@@ -102,6 +102,8 @@ Give an example
 
 ## 🎈 Usage <a name="usage"></a>
 
+<img width="368" alt="Screenshot" src="https://github.com/avsavin/project-d/assets/20927398/fd347486-c5bf-4d8d-a696-28f31cbd66e5">
+
 Add notes about how to use the system.
 
 ## 🚀 Deployment <a name = "deployment"></a>
