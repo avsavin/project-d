@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, url_for, flash, redirect
+from flask import Flask, render_template, request, url_for, flash, redirect, jsonify, json
 
 from flask_wtf import FlaskForm
 from wtforms import StringField, FormField, FieldList, IntegerField, Form
@@ -82,17 +82,41 @@ def index():
         # развернем строку в два столбца = наименование атрибута и значение
         rows= [dict(f_name=column, f_value=df_sample[column].values[0]) for column in new_columns]
      
-
     # выводим форму на экран
     return render_template('index.html', 
                            form=form , rows = rows, 
                            actual_target =actual_target,
                            estimated_target = estimated_target)
+
+@app.route('/test', methods=['POST'])
+def test():
+    # Получаем запрос от клиента и выполняем предсказание
+    vector = np.array(request.json).reshape(1, -1)
+    X=pd.DataFrame(vector,columns=[ 'new_state_id'
+                                    ,'new_mean_income'	
+                                    ,'new_lat'	
+                                    ,'new_zip'	
+                                    ,'new_sqft'
+                                    ,'new_propertyType'
+                                    ,'new_distance_to_capital'	
+                                    ,'new_baths'	
+                                    ,'new_status'	
+                                    ,'new_age'	
+                                    ,'new_stories'	
+                                    ,'new_n_households'	
+                                    ,'new_lotsize'
+    ])
+    result = round(pipe.predict(X)[0])
+    # Возвращаем предсказание
+    return jsonify({'estimation': result})
   
 if __name__ == '__main__':
    app.run(
-       host='127.0.0.1'
+       host='0.0.0.0'
        ,port=8000
 #       ,debug=True
        )
+
+# docker buildx build -t anatolysavin/project-d .
+# docker push anatolysavin/project-d
 
