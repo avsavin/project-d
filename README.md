@@ -81,29 +81,16 @@ real_estate_price_part2.ipynb
 
 
 ## 🔧 Running the tests <a name = "testing"></a>
+
+Находясь в корневой директории проекта выполните команду:
 ```
-(test) MacBook-Pro-7:web anatolysavin$ python test/test.py
+python test/test.py
 ```
+В случае правильной работы вы получите ответ:
+
 Статус сервера: 200
 Рассчитанное значение: 319832
 
-
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## 🎈 Usage <a name="usage"></a>
 
