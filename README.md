@@ -1,25 +1,3 @@
-If everything is working correctly, you will see the output:
-
-Server Status: 200<br>
-Calculated Value: 319832
-
-
-## 🎈 Usage Instructions <a name="usage"></a>
-
-Open port 8000 in any browser at the address of the running container. If running locally, access it at http://localhost:8000.
-
-A parameter input form will be displayed in the browser window, pre-filled with random values from the test set. The `Estimated Price` field will be empty, while the `Actual Price` field will show the value from the training dataset corresponding to the displayed values.
-
-<img width="368" alt="Screenshot" src="https://github.com/avsavin/project-d/assets/20927398/fd347486-c5bf-4d8d-a696-28f31cbd66e5">
-
-To calculate the price, click the `Estimate` button. The `Estimated Price` field will display the calculated value. 
-
-If you want to explore how parameters affect the system's assessment, enter your values in the respective input fields and click `Estimate` again. The system will recalculate and display the result in the `Estimated Price` field.
-
-Clicking the `Restart` button will reset the form and randomly select a new record from the test set.
-
-
-
 <p align="center">
   <a href="https://github.com/avsavin/project-d" rel="noopener">
  <img width=200px height=200px src="buy-6971881_1280.jpg" alt="Project logo"></a>
